@@ -10,6 +10,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ceaf4022-908b-4aad-b06f-a768fcf64671")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("rafi-mfi-branch-visit-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

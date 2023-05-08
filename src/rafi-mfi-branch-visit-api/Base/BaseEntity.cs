@@ -1,7 +1,8 @@
-namespace rafi_mfi_branch_visit_api.Base
+namespace rafi_mfi_branch_visit_api.Base;
+
+public abstract class BaseEntity
 {
-    public abstract class BaseEntity
-    {
-        public bool Active { get; set; } = true;
-    }
+    public long ID {get; set;}
+    public bool Active {get; set;}
 }
+

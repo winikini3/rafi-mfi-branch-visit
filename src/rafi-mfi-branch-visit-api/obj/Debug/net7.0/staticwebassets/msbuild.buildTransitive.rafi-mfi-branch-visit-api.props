@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/rafi-mfi-branch-visit-api.props" />
+</Project>

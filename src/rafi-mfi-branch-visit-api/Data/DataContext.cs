@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 
-
 namespace rafi_mfi_branch_visit_api.Data
 {
     public class DataContext : DbContext
@@ -9,8 +8,9 @@ namespace rafi_mfi_branch_visit_api.Data
         {
 
         }
-        public DataContext(DbContextOptions<DataContext> options) : base(options) { }
-        public DbSet<WeatherForecast> WeatherForecasts { get; set; }
-      
+        public DataContext (DbContextOptions<DataContext> options) : base(options) { }
+        public DbSet<WeatherForecast> WeatherForecasts {get; set;} 
+        public DbSet<Country> Countries {get; set;} 
+        public DbSet<BranchVisitForms> BranchVisitFormes {get; set;}
     }
 }

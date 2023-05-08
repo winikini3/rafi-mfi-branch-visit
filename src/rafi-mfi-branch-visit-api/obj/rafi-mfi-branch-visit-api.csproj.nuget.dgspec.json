@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/complab/practice/src/rafi-mfi-branch-visit-api/rafi-mfi-branch-visit-api.csproj": {}
+    "/Users/complab/codes/rafi-mfi-branch-visit/rafi-mfi-branch-visit-api/rafi-mfi-branch-visit-api.csproj": {}
   },
   "projects": {
-    "/Users/complab/practice/src/rafi-mfi-branch-visit-api/rafi-mfi-branch-visit-api.csproj": {
+    "/Users/complab/codes/rafi-mfi-branch-visit/rafi-mfi-branch-visit-api/rafi-mfi-branch-visit-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/complab/practice/src/rafi-mfi-branch-visit-api/rafi-mfi-branch-visit-api.csproj",
+        "projectUniqueName": "/Users/complab/codes/rafi-mfi-branch-visit/rafi-mfi-branch-visit-api/rafi-mfi-branch-visit-api.csproj",
         "projectName": "rafi-mfi-branch-visit-api",
-        "projectPath": "/Users/complab/practice/src/rafi-mfi-branch-visit-api/rafi-mfi-branch-visit-api.csproj",
+        "projectPath": "/Users/complab/codes/rafi-mfi-branch-visit/rafi-mfi-branch-visit-api/rafi-mfi-branch-visit-api.csproj",
         "packagesPath": "/Users/complab/.nuget/packages/",
-        "outputPath": "/Users/complab/practice/src/rafi-mfi-branch-visit-api/obj/",
+        "outputPath": "/Users/complab/codes/rafi-mfi-branch-visit/rafi-mfi-branch-visit-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/complab/.nuget/NuGet/NuGet.Config"
@@ -46,14 +46,6 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "Microsoft.AspNetCore.Mvc": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc.ApiExplorer": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -70,12 +62,6 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -88,11 +74,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "Swashbuckle.AspNetCore.Annotations": {
-              "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
